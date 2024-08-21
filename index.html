@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHA - Home Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/NEHA-FAVICON.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body style = "background-color:white"> <!-- placeholder BG color! -->
+     
+    <header>
+        <div class="header" style="background-color: white;">
+            <img id="logo" src="images/NEHA-Icon.JPG" height="100">
+            <h1>New England Hindu Association</h1>
+        </div>
+        
+        <div class="navbar" id="nav">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About Us</a>
+            <!-- <a href="/committees.html">Committees</a> 
+            <a href="/gallery.html">Gallery</a> ADD ON LATER DATE -->
+            <a href="/contact.html">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="title">
+            <h1>Welcome to the official website of NEHA CT </h1>
+            <hr>
+        </div>
+
+        <div class="slider">
+            <div class="slides">
+                <img class="slide" src="images/20240815_214909-CROPPEDV.jpg">
+                <img class="slide" src="images/FB_IMG_1723772822387-CROPPEDV.jpg">
+                <img class="slide" src="images/FB_IMG_1723772831632-CROPPED.jpg">
+                <img class="slide" src="images/FB_IMG_1723773231730-CROPPED.jpg">
+                <img class="slide" src="images/FB_IMG_1723773255791-CROPPED.jpg">
+                <img class="slide" src="images/Resized_FB_IMG_1723773210865-CROPPED.jpg">
+                <img class="slide" src="images/FB_IMG_1723773261314-CROPPED.jpg">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+
+        <br>
+
+        <div class="upcoming-events">
+            <h2 class="header"> Upcoming Events </h2>
+            <hr>
+            <div class="events-container">
+
+                <div class="upcoming-flyer">
+                    <img src="images/Resized_flyermaker_1724122030358.JPEG">
+                </div>
+
+                <div class="events-content">
+                    <div class="event">
+                        <div class="event-left">
+                            <div class="event-date">
+                                <div class="date">26</div>
+                                <div class="month">Oct.</div>
+                            </div>
+                        </div>
+
+                        <div class="event-right">
+                            <h3 class="event-title">Sri Sri Kali Puja 2024</h3>
+                            <div class="event-descr">
+                                Join us for our annual Sri Sri Kali Puja event on Saturday,
+                                October 26th, 2024 at the Knights of Columbus Party Hall on
+                                152 Litchfield St, Torrington, CT 06790.
+                            </div>
+                            <div class="event-time">
+                                <i class="fa-solid fa-clock"></i> 10:00 AM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <img id="flogo" src="images/NEHA-Icon copy.JPG" height="100">
+                    <div class="socialIcons">
+                        <a href="https://www.facebook.com/p/New-England-Hindu-Association-NEHA-CT-100095130064841/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@NEHACT-nr5mp" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>New England Hindu Association CT<div class="underline" id="neha"><span></span></div></h3>
+                    <p><i class="fa-solid fa-location-dot"></i> 16 Pine St, </p>
+                    <p> Torrington, CT 06790, USA </p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:ct.neha.22@gmail.com">ct.neha.22@gmail.com</a></p>
+                </div>
+                <div class="col">
+                    <ul>
+                        <h3>Links<div class="underline"><span></span></div></h3>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy;2024; Designed by Amit Banik</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
