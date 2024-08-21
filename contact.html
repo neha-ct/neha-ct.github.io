@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEHA - Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/NEHA-FAVICON.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script defer src="activePage.js"></script>
+</head>
+
+<body style = "background-color:#ffffff">
+    <!-- placeholder BG color! --> 
+    <header>
+        <div class="header">
+            <img id="logo" src="images/NEHA-Icon.JPG" height="100">
+            <h1>New England Hindu Association</h1>
+        </div>
+        <div class="navbar" id="nav">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About Us</a>
+            <!-- <a href="/committees.html">Committees</a> 
+            <a href="/gallery.html">Gallery</a> -->
+            <a href="/contact.html">Contact</a>
+        </div>
+    </header>
+
+    <div class="contact-container">
+
+        <form action="https://formspree.io/f/xpwargnz" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us</h2>
+                <hr>
+            </div>
+            <div class="name-container">
+                <input type="text" name="fname" placeholder="First Name" class="contact-input" required>
+                <input type="text" name="lname" placeholder="Last Name" class="contact-input" required>
+            </div>
+            <input type="email" name="email" placeholder="ex: myname@example.com" class = "contact-input" required>
+            <textarea name="message" placeholder="Message" class = "contact-input" required></textarea>
+            <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+
+        <form action="" class="contact-right">
+            <img src="/images/20240819_191809.JPG">
+        </form>
+
+    
+         
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <img id="flogo" src="images/NEHA-Icon copy.JPG" height="100">
+                    <div class="socialIcons">
+                        <a href="https://www.facebook.com/p/New-England-Hindu-Association-NEHA-CT-100095130064841/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/@NEHACT-nr5mp" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>New England Hindu Association CT<div class="underline" id="neha"><span></span></div></h3>
+                    <p><i class="fa-solid fa-location-dot"></i> 16 Pine St, </p>
+                    <p> Torrington, CT 06790, USA </p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:ct.neha.22@gmail.com">ct.neha.22@gmail.com</a></p>
+                </div>
+                <div class="col">
+                    <ul>
+                        <h3>Links<div class="underline"><span></span></div></h3>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy;2024; Designed by Amit Banik</p>
+        </div>
+    </footer>
+</body>
+</html>
