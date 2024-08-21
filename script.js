@@ -37,9 +37,10 @@ function nextSlide(){
 
 //Navbar Active Page Script
 const activePage = window.location.pathname;
-const navLinks = document.querySelectorAll('header a').
-forEach(link => {
-    if(link.href.includes(`${activePage}`)){
+const navLinks = document.querySelectorAll('header .navbar a');
+navLinks.forEach(link => {
+    const linkPath = new URL(link.href).pathname;
+    if(linkPath == activePage){
         link.classList.add('active');
     }
-})
+});
