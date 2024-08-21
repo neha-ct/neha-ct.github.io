@@ -42,5 +42,7 @@ navLinks.forEach(link => {
     const linkPath = new URL(link.href).pathname;
     if(linkPath === activePage){
         link.classList.add('active');
+    } else {
+        link.classList.remove('active');
     }
 });
