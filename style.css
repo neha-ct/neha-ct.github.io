@@ -739,3 +739,27 @@ section{
     from {opacity: .4}
     to {opacity: 1}
 }
+
+/* Scrollable Container */
+.events-content {
+    max-height: 400px;       /* Set desired max height */
+    overflow-y: auto;        /* Enables vertical scrolling */
+    padding-right: 10px;     /* Space for scrollbar */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;              /* Spacing between event boxes */
+}
+
+/* Optional: Custom scrollbar styling */
+.events-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.events-content::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 4px;
+}
+
+.events-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
